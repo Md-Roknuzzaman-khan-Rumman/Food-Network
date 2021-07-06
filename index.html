@@ -4,30 +4,53 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="icon"
+            href="images/Faviconf.ico"
+            type="image/ico"
+            sizes="20x20"
+        />
         <link rel="stylesheet" href="style.css" />
         <title>Food Network</title>
     </head>
     <body>
-        <div class="main">
-            <!-- -------first-section start------- -->
+        <!-- -------first-section start------- -->
+        <div class="main first-main">
+            <!-- nav_section: start  -->
+            <div id="nav_section">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="food network logo" /></a>
+                </div>
+                <div id="nav">
+                    <ul>
+                        <li class="active">
+                            <a href="index.html" class="active">Home</a>
+                        </li>
+                        <li><a href="#">Recipes</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- nav_section: end  -->
             <div id="first-section" class="section">
                 <div class="text">
                     <h1 class="head-text">
-                        <span>Skip</span> The Diet,<br />Just Eat Healthy
-                        <br />With Food Network
+                        <span>Skip</span> The Diet,<br />Just Eat Healthy<br />With
+                        Food Network
                     </h1>
                     <p class="para-text">
                         Imagine you don't need a diet because we provide
                         <br />healthy and delicious food for you!
                     </p>
-                    <a href="#" class="button">Order Food</a>
+                    <a href="https://www.foodnetwork.com/how-to/packages/shopping" class="button">Order Food</a>
                 </div>
                 <div class="image">
                     <img src="images/Group.png" alt="girl with food" />
                 </div>
             </div>
-            <!-- -------first-section end------- -->
         </div>
+        <!-- -------first-section end------- -->
 
         <div id="second-section-bg">
             <!-- -------second-section-start------- -->
@@ -46,7 +69,11 @@
                             Here, We deliver food here considering the
                             nutritional value of our food.
                         </p>
-                        <a href="#" class="button">Contact me</a>
+                        <a
+                            href="https://www.linkedin.com/in/rumman-rumman-617520172/"
+                            target="_blank"
+                            class="button"
+                            >Contact me</a>
                     </div>
                 </div>
             </div>
@@ -69,7 +96,7 @@
                 <div id="menu">
                     <div class="menu_items">
                         <div id="first-menu-pic" class="menu-pic"></div>
-                        <h2>Vegetable Salad</h2>
+                        <h2 class="head-text">Vegetable Salad</h2>
                         <p class="para-text">
                             Vegetable Salad We have many types of vegetable
                             salads. It is very beneficial for those who like
@@ -79,7 +106,7 @@
                     </div>
                     <div class="menu_items">
                         <div id="second-menu-pic" class="menu-pic"></div>
-                        <h2>Fruit Salad</h2>
+                        <h2 class="head-text">Fruit Salad</h2>
                         <p class="para-text">
                             Fruit Salad For those who like to eat a lot of
                             fruits, we make this fruit salad made from a
@@ -88,12 +115,12 @@
                     </div>
                     <div class="menu_items">
                         <div id="third-menu-pic" class="menu-pic"></div>
-                        <h2>Mixed Salad</h2>
+                        <h2 class="head-text">Mixed Salad</h2>
                         <p class="para-text">
                             Not all people want the same, so we have a salad
                             here that prefers both vegetables and fruits. This
                             salad has a combination of some fruits and some
-                            vegetables
+                            vegetables.
                         </p>
                     </div>
                 </div>
@@ -101,15 +128,15 @@
 
                 <div id="counter">
                     <div class="counter">
-                        <p class="counter_number">700k</p>
+                        <p class="counter_number counter_number_color">700k</p>
                         <p class="counter_link">Youtube Subscribers</p>
                     </div>
                     <div class="counter">
-                        <p class="counter_number">2.4m</p>
+                        <p class="counter_number counter_number_color">2.4m</p>
                         <p class="counter_link">Instagram Followers</p>
                     </div>
                     <div class="counter">
-                        <p class="counter_number">100k</p>
+                        <p class="counter_number counter_number_color">100k</p>
                         <p class="counter_link">Dribble Shot Likes</p>
                     </div>
                 </div>
@@ -120,14 +147,34 @@
         <!-- -------footer-section-start------- -->
         <footer>
             <div class="main">
-                <h1><span>Food</span> Network</h1>
+                <p class="logo" id="footer_logo"><span>Food</span> Network</p>
                 <p>Eat healthy to live healthy.</p>
+                <div class="social_links">
+                    <a
+                        href="https://www.facebook.com/FoodNetwork/"
+                        target="_blank"
+                        ><img src="icons/facebook.png" alt="facebook link"
+                    /></a>
+                    <a
+                        href="https://www.instagram.com/foodnetwork/"
+                        target="_blank"
+                        ><img src="icons/instagram.png" alt="instagram link"
+                    /></a>
+                    <a
+                        href="https://www.youtube.com/user/FoodNetworkTV"
+                        target="_blank"
+                        ><img src="icons/youtube.png" alt="youtube link"
+                    /></a>
+                </div>
                 <div id="copyright">
-                    <p>&copy; Copyright 2021 - Present, All rights goes to Rumman.</p>
+                    <p>
+                        &copy; Copyright 2021 - Present, All rights goes to
+                        Rumman.
+                    </p>
                 </div>
             </div>
-            
         </footer>
         <!-- -------footer-section-start------- -->
+
     </body>
 </html>
